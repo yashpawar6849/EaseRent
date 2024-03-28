@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+}
+
+.logo {
+    margin-top: 20px;
+}
+
+.logo h1 {
+    font-size: 40px;
+    color: #fff;
+}
+
+.title {
+    margin-top: 20px;
+}
+
+.title h2 {
+    font-size: 35px;
+    color: #ff8000; /* Different color for the title */
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 22px;
+    width: calc(50% - 50px); /* Two boxes per row */
+    max-width: 650px; /* Increased max-width for larger boxes */
+    text-align: center;
+    transition: background-color 0.3s ease;
+    border: 2px solid #ff8000; /* Add border */
+}
+
+.box:hover {
+    background-color: #333;
+}
+
+.box h3 {
+    color: #333;
+}
+
+.box p {
+    color: #666;
+}
